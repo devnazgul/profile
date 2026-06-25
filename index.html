@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>devnazgul — Portfolio & Links</title>
+  <meta name="description" content="Portfolio and links for devnazgul — projects, profiles, and contact." />
+  <meta property="og:title" content="devnazgul — Portfolio & Links" />
+  <meta property="og:description" content="Portfolio and links for devnazgul — projects, profiles, and contact." />
+  <meta property="og:image" content="https://github.com/devnazgul.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <img class="avatar" src="https://github.com/devnazgul.png" alt="devnazgul" />
+      <h1>devnazgul</h1>
+      <p class="tagline">Developer • Builder • Portfolio</p>
+    </header>
+
+    <section class="links">
+      <!-- Edit these links to your real profiles -->
+      <a class="btn" href="https://github.com/devnazgul" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="/resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+      <a class="btn" href="mailto:you@example.com">Email</a>
+      <a class="btn" href="https://twitter.com/" target="_blank" rel="noopener">Twitter</a>
+    </section>
+
+    <section class="projects">
+      <h2>Featured</h2>
+      <ul>
+        <li><a href="#" target="_blank" rel="noopener">Project One — short description</a></li>
+        <li><a href="#" target="_blank" rel="noopener">Project Two — short description</a></li>
+      </ul>
+    </section>
+
+    <section class="about">
+      <h2>About</h2>
+      <p>This is a small personal profile and link hub for devnazgul. Edit index.html to update the copy, links, and projects. Add resume.pdf to the repo root if you want the Resume link to work.</p>
+    </section>
+
+    <footer class="footer">
+      <small>© YEAR devnazgul — This page is for my personal profiles and portfolio.</small>
+    </footer>
+  </main>
+
+  <script>
+    // Replace YEAR automatically
+    document.querySelector('.footer small').textContent =
+      `© ${new Date().getFullYear()} devnazgul — This page is for my personal profiles and portfolio.`;
+  </script>
+</body>
+</html>
